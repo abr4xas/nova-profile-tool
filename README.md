@@ -7,14 +7,14 @@
 When this tool is added to Nova, you can let users update their profile data without giving them access to the full
 User resource under 'Resources'.
 
-![screenshot of the backup tool](https://github.com/runlinenl/nova-profile-tool/raw/master/screenshot.png)
+![screenshot of the backup tool](https://github.com/abr4xas/nova-profile-tool/raw/master/screenshot.png)
 
 ## Installation
 
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require runlinenl/nova-profile-tool
+composer require abr4xas/nova-profile-tool
 ```
 
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
