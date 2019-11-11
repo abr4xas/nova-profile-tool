@@ -62,8 +62,8 @@ class ToolServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-           __DIR__ . '/../config/nova-profile-tool.php',
-           'nova-profile-tool'
-       );
+            __DIR__ . '/../config/nova-profile-tool.php',
+            'nova-profile-tool'
+        );
     }
 }

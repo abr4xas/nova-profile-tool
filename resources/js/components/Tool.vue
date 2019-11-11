@@ -57,8 +57,6 @@
                     '/nova-vendor/nova-profile-tool/'
                 )
 
-                console.log(fields)
-
                 this.fields = fields
                 this.loading = false
             },
